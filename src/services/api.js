@@ -62,7 +62,7 @@ export const reviewService = {
 };
 
 // Function App URL - Replace with your actual Azure Function App URL
-const FUNCTION_API_URL = 'https://8026-review-import-ftgaa5cyaubjgwhk.southeastasia-01.azurewebsites.net/api';
+const FUNCTION_API_URL = 'https://8026-content-filter-h3gehygfghc8h0an.southeastasia-01.azurewebsites.net/api';
 
 const functionApi = axios.create({
   baseURL: FUNCTION_API_URL,
